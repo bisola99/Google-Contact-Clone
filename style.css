@@ -1,0 +1,212 @@
+*{
+  margin: 0%;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  
+}
+
+.nav{
+  width: 100%;
+  height: 80px;
+     /* background-color: red;   */
+     display: flex;
+     margin-top: 20px;
+     
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* background-color: yellow; */
+  margin-top: 16px;
+  height: 40px;
+}
+.inp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  width: 70%;
+  height: 90px;
+  padding: 10px 20px;
+  border-radius: 13px;
+
+
+  
+
+}
+ input{
+  outline: none;
+  width: 100%;
+  height: inherit;
+  border: none;
+  background-color: rgb(233, 230, 230);
+  font-size: 25px;
+  padding-left:14px;
+  font-family:sans-serif ;
+ }
+ .inp i{
+  font-size: 30px;
+  padding-right: 16px;
+ }
+
+ .left{
+  display: flex;
+  margin-left: 4px;
+  float: left;
+ }
+ .contact-left{
+  display: flex;
+   justify-content: center; 
+   align-items: center;
+ }
+ .bar i{
+  font-size: 50px;
+ }
+ .bar{
+  padding-right: 30px;
+  margin-left: 20px;
+ }
+ .user i{
+  font-size: 50px;
+  color: rgb(58, 58, 218);
+    
+ }
+ .contact-left p{
+  padding-left: 30px;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: gray;
+  
+ }
+ .nav .left{
+  padding-top: 0;
+ }
+ .right-hand{
+  font-size: 50px;
+ }
+ .right{
+  display: flex;
+  margin-right: 10px;
+  margin-top: 19px;
+ }
+ .question{
+  margin-right: 100px;
+  
+ }
+ .settings{
+  margin-right: 80px;
+  
+ }
+ .contacts {
+  display: block;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 22%;
+  height: 100%;
+  line-height: 80px;
+  font-size: 20px;
+  margin-top: 60px;
+  /* margin-left: 15px; */
+ }
+ .words-1 button{
+  font-size: 15px;
+  margin-left: 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 7px rgb(211,207, 207);
+  color: rgb(43,42, 42);
+  background-color: white;
+  width: 280px;
+  height: 60px;
+  border: none;
+ }
+ .cross{
+  margin-top: 40px;
+display: block;
+ }
+.cross i{
+font-size: 20px;
+margin-right: 35px;
+font-size: 35px;
+margin-left: 7px;
+}
+.cross span{
+  margin-right: 50px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+ .frist {
+  margin-top: 3px;
+  font-size: 30px;
+  font-weight: 400;
+  background-color: rgb(200, 200, 236);
+  border-radius: 0 20px 20px 0px;
+width: 350px;
+height: 60px;
+display: flex;
+justify-content: space-around;
+padding-top: 10px;
+
+ }
+ .frist i{
+  color: rgb(107, 92, 208);
+ }
+ .frist a span{
+color: blue;
+
+ }
+
+ .frequent{
+  font-size: 30px;
+  font-family: serif;
+  display: block;
+  
+ }
+ 
+ .one {
+margin-left: 30px;
+margin-top: 10px;
+color: black;
+ }
+ .one span{
+  color: black;
+  padding-left: 16px;
+ }
+
+ .second div{
+  /* margin-left: 30px; */
+  font-weight: 400;
+  font-size: 30px;
+ }
+ .label{
+  margin-left: 30px;
+ }
+ .label span{
+  margin-left: 25px;
+ }
+
+ .import{
+  margin-left: 30px;
+ }
+ .import span{
+  margin-left: 25px;
+ }
+ .other{
+  margin-left: 30px;
+
+ }
+ .other span{
+  margin-left: 25px;
+ }
+ .one:hover{
+  border:  solid rgb(230, 227, 227);
+  
+ }
+
+ .contact-img{
+  width: 50px;
+  height: 50px;
+ }
